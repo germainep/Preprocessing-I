@@ -148,9 +148,13 @@ header nav {
   display: flex;
   justify-content: space-around;
 }
+header nav h1 {
+  font-size: 3rem;
+}
 header nav a {
   text-decoration: none;
   color: dodgerblue;
+  font-size: 2rem;
 }
 header nav a:hover {
   color: crimson;
@@ -174,11 +178,19 @@ main h2 {
 main .columns {
   flex: 1;
   padding: 20px;
+  margin: 5px;
 }
 main section {
-  height: 300px;
+  min-height: 300px;
   margin: 2rem;
+}
+main #work ul li {
+  margin: 1.25rem;
 }
 main #work ul li:nth-child(even) h3 {
   background-color: #aab;
+}
+main .column-right {
+  background-color: dodgerblue;
+  border-radius: 0.75rem;
 }

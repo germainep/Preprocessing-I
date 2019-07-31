@@ -166,9 +166,14 @@ header {
 		display: flex;
 		justify-content: space-around;
 
+		h1 {
+			font-size: 3rem;
+		}
+
 		a {
 			text-decoration: none;
 			color: dodgerblue;
+			font-size: 2rem;
 
 			&:hover {
 				color: crimson;
@@ -200,21 +205,29 @@ main {
 	.columns {
 		flex: 1;
 		padding: 20px;
+		margin: 5px;
 	}
 
 	section {
-		height: 300px;
+		min-height: 300px;
 		margin: 2rem;
 	}
 
 	#work {
 		ul {
 			li {
+				margin: 1.25rem;
+
 				&:nth-child(even) h3 {
 					background-color: #aab;
 
 				}
 			}
 		}
+	}
+
+	.column-right {
+		background-color: dodgerblue;
+		border-radius: .75rem;
 	}
 }
