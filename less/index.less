@@ -189,6 +189,7 @@ main {
 	h3,
 	h4 {
 		font-family: @heading-font;
+		line-height: 2;
 	}
 
 	h2 {
@@ -203,5 +204,17 @@ main {
 
 	section {
 		height: 300px;
+		margin: 2rem;
+	}
+
+	#work {
+		ul {
+			li {
+				&:nth-child(even) h3 {
+					background-color: #aab;
+
+				}
+			}
+		}
 	}
 }

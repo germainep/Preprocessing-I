@@ -166,6 +166,7 @@ main h2,
 main h3,
 main h4 {
   font-family: 'Abhaya Libre', serif;
+  line-height: 2;
 }
 main h2 {
   font-size: 2.25rem;
@@ -176,4 +177,8 @@ main .columns {
 }
 main section {
   height: 300px;
+  margin: 2rem;
+}
+main #work ul li:nth-child(even) h3 {
+  background-color: #aab;
 }
