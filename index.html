@@ -1,19 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>My Resume</title>
+    <title>My Resume</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Darker+Grotesque&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
 
-  <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+  <body>
+    <header>
+      <nav class="container">
+        <h1>Germaine Pannell</h1>
+        <a href="#intro">Intro</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work History</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+    <main class="container">
+      <div id="column-left">
+        <section id="intro">
+          <h2></h2>
+          <p>
+            I'm a software engineer specializing in HTML and CSS. I love to build interactive app
+            with animations and beautiful transitions. I bring a wealth of parallel experience from
+            a customer support, supervisory, and fabrication background.
+          </p>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Web Design</li>
+            <li>LESS</li>
+            <li>Stylus</li>
+          </ul>
+        </section>
+      </div>
+      <div id="column-right">
+        <section id="work">
+          <h2>Work History</h2>
+          <ul>
+            <li>
+              <h3>Robot Technician</h3>
+              <p>Maintain, Repair and Programming of Miller&trade; Welding robotic equipment.</p>
+            </li>
+            <li>
+              <h3>Welding Supervisor</h3>
+              <p>
+                Provides guidance and scheduling for welding operations in a fast pace fabrication
+                shop. Evaluates welding quality of team members as well as potential new hires.
+                Maintains a high standard of quality and effeciency among team to meet quality and
+                production goals.
+              </p>
+            </li>
+            <li>
+              <h3>Fabrication Welder</h3>
+              <p>
+                MIG welds raw steel components in a fast paced production based enviroment, while
+                maintaining a high level of quality and effeciency. Provides feedback on quality and
+                of raw materials and feasiblity of work load.
+              </p>
+            </li>
+            <li>
+              <h3>Customer Service Representative</h3>
+              <p>description</p>
+            </li>
+          </ul>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <p><span>Phone:</span> 434 555 5555</p>
+          <p><span>Email:</span> me@germainep.com</p>
+          <p><span>Website:</span> www.germainep.com</p>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
